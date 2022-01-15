@@ -145,3 +145,13 @@
 </div>
 
 <h2> Criando diretórios </h2>
+
+<div align="center">
+    <table>
+        <tr>
+            <th> Comando </th>
+            <th> Descrição </th>
+            <th> Exemplo </th>
+        </tr>
+    </table>
+</div>
