@@ -133,7 +133,7 @@
         </tr>
         <tr>
             <td> ls + nome do diretório + letra </td>
-            <td> Procurando arquivos com determinada letra sem estar presente no diretório que esteja buscando. <td>
+            <td> Procurando arquivos com determinada letra sem estar presente no diretório que esteja buscando. </td>
             <td> ... </td>
         </tr>
         <tr>
