@@ -4,51 +4,52 @@
 
 <div align="center">
     <table>
-    <tr>
-        <th> Comando </th>
-        <th> Descrição </th>
-        <th> Exemplo </th>
-    </tr>
-    <tr>
-        <td> date </td>
-        <td> Verificar a data e hora atual. </td>
+        <tr>
+            <th> Comando </th>
+            <th> Descrição </th>
+            <th> Exemplo </th>
+        </tr>
+        <tr>
+            <td> date </td>
+            <td> Verificar a data e hora atual. </td>
+            <td> ... </td>
+        </tr>
+        <tr>
+            <td> clear </td>
+            <td> Limpa o console por completo. </td>
         <td> ... </td>
-    </tr>
-    <tr>
-        <td> clear </td>
-        <td> Limpa o console por completo. </td>
-        <td> ... </td>
-    </tr>
-    <tr>
-        <td> ctrl + l </td>
-        <td> Apaga a última página de comandos no terminal. </td>
-        <td> ... </td>
-    <tr>
-        <td> pwd </td>
-        <td> Específica o caminho do diretório onde você está atualmente. </td>
-        <td> ... </td>
-    </tr>
-    <tr>
-        <td> cd + nome da pasta </td>
-        <td> Entra no diretório. 
-        <td> ... </td>
-    </td>
-    <tr>
-        <td> ls </td>
-        <td> Lista o que você possui no diretório: nada, diretório/s, arquivos. </td>
-        <td> ... </td>
-    </tr>
-    <tr>
-        <td> cd .. </td>
-        <td> Volta para uma pasta anterior da atual.
-        <td> ... </td>
-    </tr>
-    <tr>
-        <td> cd + letras inicias do diretório + tab </td>
-        <td> Autocomplete para entrar na pasta de forma rápida ou sugerir diretórios correspondente as letras informadas. </td>
-        <td> ... </td>
-    </tr>
-    </table>
+        </tr>
+        <tr>
+            <td> ctrl + l </td>
+            <td> Apaga a última página de comandos no terminal. </td>
+            <td> ... </td>
+        </tr>
+        <tr>
+            <td> pwd </td>
+            <td> Específica o caminho do diretório onde você está atualmente. </td>
+            <td> ... </td>
+        </tr>
+        <tr>
+            <td> cd + nome da pasta </td>
+            <td> Entra no diretório. 
+            <td> ... </td>
+        </td>
+        <tr>
+            <td> ls </td>
+            <td> Lista o que você possui no diretório: nada, diretório/s, arquivos. </td>
+            <td> ... </td>
+        </tr>
+        <tr>
+            <td> cd .. </td>
+            <td> Volta para uma pasta anterior da atual.
+            <td> ... </td>
+        </tr>
+        <tr>
+            <td> cd + letras inicias do diretório + tab </td>
+            <td> Autocomplete para entrar na pasta de forma rápida ou sugerir diretórios correspondente as letras informadas. </td>
+            <td> ... </td>
+        </tr>
+   </table>
 </div>
 
 <h2> Filtrando a exibição de arquivos - parte 1 </h2>
