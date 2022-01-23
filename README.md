@@ -154,5 +154,10 @@
             <th> Descrição </th>
             <th> Exemplo </th>
         </tr>
+        <tr>
+            <td> ... </td>
+            <td> ... </td>
+            <td> ... </td>
+        </tr>
     </table>
 </div>
