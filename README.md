@@ -64,10 +64,8 @@
         </tr>
         <tr>
             <td> ls | more </td>
-            <td> Filtra mais informações sobre o diretório que você está, aperte enter conitnuar visualizando mais dados e use ctrl + c para sair da lista. </td>
-            <td> 2to3 </td>
-            <br>
-            <td>--more--</td>
+            <td> Filtra mais informações sobre o diretório que você está, aperte enter continuar visualizando mais dados e use ctrl + c para sair da lista. </td>
+            <td> 2to3 <br> --more-- </td>
         </tr>
         <tr>
             <td> ls + nome do diretório </td>
@@ -81,7 +79,7 @@
         </tr>
         <tr>
             <td> ls + letra + ? + letra + * </td>
-            <td> Apresenta dados com o primeiro e terceiro caractere, <br> na interrogração, será feito por uma busca seja uma letra/número entre os caracteres. </td>
+            <td> Apresenta dados com o primeiro e terceiro caractere, <br> na interrogração, será feito por uma busca seja uma letra/número entre os caracteres.               </td>
             <td> brave-bin-1.34.81.zip </td>
         </tr>
     </table>
