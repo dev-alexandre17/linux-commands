@@ -142,7 +142,7 @@
 
 <h2> Criando diretórios </h2>
 
-<div align="center">
+<div>
     <table>
         <tr>
             <th> Comando </th>
