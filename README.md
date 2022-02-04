@@ -33,7 +33,7 @@
             <td> Lista o que você possui no diretório: nada, diretório/s, arquivos. </td>
         </tr>
         <tr>
-            <td> cd .. </td>
+            <td> cd + .. </td>
             <td> Volta para uma pasta anterior da atual.
         </tr>
         <tr>
@@ -60,7 +60,7 @@
         <tr>
             <td> ctrl + c </td>
             <td> Comando usado para sair da listagem de informações. </td>
-            <td> ... </td>
+            <td> ctrl c </td>
         <tr>
             <td> ls + nome do diretório </td>
             <td> Lista todas as informações contidas na pasta. </td>
@@ -144,24 +144,24 @@
             <th> Resultado </th>
         </tr>
         <tr>
-            <td> cd ~ </td>
+            <td> cd + ~ </td>
             <td> Direciona para a home do seu perfil. </td>
-            <td> /home/dev-alexandre </td>
+            <td> cd ~ </td>
         </tr>
         <tr>
             <td> mkdir + nome da pasta </td>
             <td> Cria uma pasta. </td>
-            <td> workspace </td>
+            <td> mkdir Textos </td>
         </tr>
         <tr>
             <td> mkdir + caminho do diretório + nome da pasta </td>
             <td> Indica onde será criada a pasta. </td>
-            <td> workspace </td>
+            <td> mkdir /home/usuario/Planilhas </td>
         </tr>
         <tr>
             <td> mkdir + "nome da pasta" </td>
             <td> Cria uma pasta com o nome separado. </td>
-            <td> receita de bolo </td>
+            <td> mkdir 'Meus Arquivos' </td>
         </tr>
     </table>
 </div>
