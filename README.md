@@ -119,7 +119,7 @@
         <tr>
             <th> Comandos </th>
             <th> Descrições </th>
-            <th> Resultados </th>
+            <th> Exemplos </th>
         </tr>
         <tr>
             <td> ls + nome do diretório + letra </td>
@@ -139,9 +139,9 @@
 <div>
     <table>
         <tr>
-            <th> Comando </th>
-            <th> Descrição </th>
-            <th> Resultado </th>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
         </tr>
         <tr>
             <td> cd + ~ </td>
