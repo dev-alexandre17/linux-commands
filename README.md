@@ -208,5 +208,35 @@
     </table>
 </div>
 
+<div align="center">
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> comando + --help </td>
+            <td> Informa mais informações sobre o comando, suas flags e de que maneira usar. </td>
+            <td> ls --help </td>
+        </tr>
+        <tr>
+            <td> ls + -l </td>
+            <td> Mostra uma visualização formatada de diretórios e arquivos. </td>
+            <td> ls -l </td>
+        </tr>
+        <tr>
+            <td> ls + -lh </td>
+            <td> Ilustra as informações formatadas de diretórios e arquivos porém identificando os tamanhos em MB, GB e afins. </td>
+            <td> ls -lh </td>
+        </tr>
+        <tr>
+            <td> man + ls </td>
+            <td> Descreve informações sobre o comando na língua inglesa. </td>
+            <td> man ls </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
