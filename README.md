@@ -168,5 +168,45 @@
 
 <h2> Excluindo arquivos e diretórios </h2>
 
+<div align="center">
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> rmdir + nome da pasta </td>
+            <td> Remove diretório vazio. </td>
+            <td> rmdir Textos </td>
+        </tr>
+        <tr>
+            <td> mkdir + nome da pasta + nome da pasta </td>
+            <td> Será criada duas pastas simultaneamente. </td>
+            <td> mkdir Textos1 Textos2 Textos3 </td>
+        </tr>
+        <tr>
+            <td> rm + arquivo </td>
+            <td> Remove o arquivo informado. </td>
+            <td> rm texto.txt </td>
+        </tr>
+        <tr>
+            <td> rm + * + extensão </td>
+            <td> Deleta todos os arquivos do mesmo formato. </td>
+            <td> rm *.txt </td>
+        </tr>
+        <tr>
+            <td> rm + letra + * </td>
+            <td> Exclui arquivos iniciandos com determinada letra e o restante dos caracteres são ignorados. </td>
+            <td> rm a??c* </td>
+        </tr>
+        <tr>
+            <td> rm -rf + nome da pasta </td>
+            <td> Será deletado tudo dentro desta pasta, incluíndo outros diretórios e arquivos. </td>
+            <td> rm -rf Dir1 </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
