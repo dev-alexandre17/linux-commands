@@ -208,6 +208,8 @@
     </table>
 </div>
 
+<h2> Obtendo ajuda </h2>
+
 <div align="center">
     <table>
         <tr>
@@ -234,6 +236,33 @@
             <td> man + ls </td>
             <td> Descreve informações sobre o comando na língua inglesa. </td>
             <td> man ls </td>
+        </tr>
+    </table>
+</div>
+
+<h2> Executando tarefas administrativas como superusuário (root) </h2>
+
+<div align="center">
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> sudo </td>
+            <td> Permissão para realizar atividades em distribuições linux. </td>
+            <td> sudo apt update </td>
+        </tr>
+        <tr>
+            <td> su </td>
+            <td> Entra em modo root para fazer tarefas de administrador. </td>
+            <td> su </td>
+        </tr>
+        <tr>
+            <td> su + nome do usuário </td>
+            <td> Após ser o root da máquina, para trocar de usuário utilize su e o nome do usuário que deseja. </td>
+            <td> su dev-alexandre17 </td>
         </tr>
     </table>
 </div>
