@@ -267,5 +267,47 @@
     </table>
 </div>
 
+<h2> Histórico de comandos </h2>
+
+<div>
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> seta para cima ou para baixo </td>
+            <td> Visualiza comandos usados anteriormente. </td>
+            <td> ↑ ou ↓ </td>
+        </tr>
+        <tr>
+            <td> history </td>
+            <td> Listagem de comandos usados até o momento. </td>
+            <td> history </td>
+        </tr>
+        <tr>
+            <td> history + número </td>
+            <td> Mostra a quantidade dos últimos comandos que deseja visualizar. </td>
+            <td> history 10 </td>
+        </tr>
+        <tr>
+            <td> ! + número </td>
+            <td> Executa o comando correspondente ao seu número no histórico de comandos. </td>
+            <td> !459 </td>
+        </tr>
+        <tr>
+            <td> !! </td>
+            <td> Faz a execução do último comando registrado. </td>
+            <td> !! </td>
+        </tr>
+        <tr>
+            <td> ! + ? + letras do comando + ? </td>
+            <td> Procura o comando similar de acordo com as letras informadas. </td>
+            <td> !?dat? </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
