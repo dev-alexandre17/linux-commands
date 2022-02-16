@@ -320,8 +320,38 @@
         </tr>
         <tr>
             <td> useradd + nome do usuário </td>
-            <td> Cria um usuário apenas com a informação do nome. </td>
-            <td> useradd julio </td>
+            <td> Cria um usuário. </td>
+            <td> useradd joao </td>
+        </tr>
+        <tr>
+            <td> passwd + nome do usuário </td>
+            <td> Adiciona uma senha para o usuário criado. </td>
+            <td> passwd joao </td>
+        </tr>
+        <tr>
+            <td> useradd + --help </td>
+            <td> Buscando ajuda referente na criação de usuários. </td>
+            <td> useradd --help </td>
+        </tr>
+        <tr>    
+            <td> userdel + -f + nome do usuário </td>
+            <td> Forçar a exclusão do usuário. </td>
+            <td> userdel -f joao </td>
+        </tr>
+        <tr>
+            <td> userdel + nome do usuário </td>
+            <td> Deletar o usuário da máquina. </td>
+            <td> userdel joao </td>
+        </tr>
+        <tr>
+            <td> useradd + -m + nome de usuário + -c + nome da pessoa </td> 
+            <td> Criando diretório do usuário e informando o nome da pessoa. </td>
+            <td> useradd -m joao -c 'João da Silva' </td>
+        </tr>
+        <tr>
+            <td> userdel + -r + -f + nome </td>
+            <td> Deleta tudo do usuário, diretórios, arquivos e afins. </td>
+            <td> userdel -r -f joao </td>
         </tr>
     </table>
 </div>
