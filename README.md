@@ -311,5 +311,20 @@
 
 <h2> Criando e excluindo usuários </h2>
 
+<div>
+   <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> useradd + nome do usuário </td>
+            <td> Cria um usuário apenas com a informação do nome. </td>
+            <td> useradd julio </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
