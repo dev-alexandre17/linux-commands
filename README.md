@@ -356,5 +356,7 @@
     </table>
 </div>
 
+<h2> Bloqueando e editando usuários </h2>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
