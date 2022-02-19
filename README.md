@@ -358,5 +358,45 @@
 
 <h2> Bloqueando e editando usuários </h2>
 
+<div>
+   <table>
+       <tr>
+           <th> Comandos </th>
+           <th> Descrições </th>
+           <th> Exemplos </th>
+       </tr>
+       <tr>
+           <td> useradd + -e + data </td>
+           <td> Definindo a data de expieração de uso para o usuário. </td>
+           <td> useradd -e 29/12/2022 </td>
+       </tr>
+       <tr>
+           <td> useradd + -e + data </td>
+           <td> Alterando a data de expiração. </td>
+           <td> usermod -e 30/12/2022 </td>
+       </tr>
+       <tr>
+           <td> passwd + nome do usuário + -e </td>
+           <td> Troca a senha toda vez que o usuário fazer o login na máquina. </td>
+           <td> passwd joao -e </td>
+       </tr>
+       <tr>
+           <td> passwd + nome do usuário + -l </td>
+           <td> Bloqueando a conta do usuário. </td>
+           <td> passwd aline -l </td>
+       </tr>
+       <tr>
+           <td> passwd + nome do usuário + -u </td>
+           <td> Desbloquea a conta do usuário. </td>
+           <td> passwd samuel -u </td>
+       </tr>
+       <tr>
+           <td> cat + / + etc/ + passwd/ </td>
+           <td> Descobrindo quais usuários foram criados. </td>
+           <td> cat /etc/passwd </td>
+       </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
