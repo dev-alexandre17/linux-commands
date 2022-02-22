@@ -398,5 +398,32 @@
     </table>
 </div>
 
+<h2> Arquivos de senhas (passwd) </h2>
+
+<div>
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> grep + -i + 'usuario' + /etc/ + passwd </td>
+            <td> Encontrando usuário requisitado. </td>
+            <td> grep -i 'dev-alexandre17' /etc/passwd </td>
+        </tr>
+        <tr>
+            <td> cat + /etc/ + shadow </td>
+            <td> Visualizar informações sobre o usuário. </td>
+            <td> cat /etc/shadow
+        </tr>
+        <tr>
+            <td> stat + /etc/ + passwd
+            <td> Informações sobre o arquivo de senhas. </td>
+            <td> stat /etc/passwd </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
