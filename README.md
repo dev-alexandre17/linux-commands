@@ -425,5 +425,42 @@
     </table>
 </div>
 
+<h2> Grupos de usuários </h2>
+
+<div>
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> cat + /etc/ + group </td>
+            <td> Listagem de grupos no sistema. </td>
+            <td> cat /etc/group </td>
+        </tr>
+        <tr>
+            <td> groupadd + nome do grupo </td>
+            <td> Criando o grupo de usuários. </td>
+            <td> groupadd + GRP_ADM </td>
+        </tr>
+        <tr>
+            <td> useradd + nome do usuário + -c + 'Nome da pessoa' + -G + nome do grupo </td>
+            <td> Adicionando um usuário (a) inexistente no sistema ao grupo. </td>
+            <td> useradd fernanda -c 'Fernanda da Silva' -G GRP_ADM </td>
+        </tr>
+        <tr>
+            <td> usermod + nome do usuário + -G + nome do grupo </td>
+            <td> Adicionando um usuário existente no sistema ao grupo. </td>
+            <td> usermod denilson -G GRP_ADM </td>
+        </tr>
+        <tr>
+            <td> groupdel + nome do grupo </td>
+            <td> Deletando o grupo. </td>
+            <td> groupdel GRP_ADM </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
