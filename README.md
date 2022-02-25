@@ -462,5 +462,52 @@
     </table>
 </div>
 
+<h2> Gerenciamento de pacotes (Ubuntu / Debian) </h2>
+
+<div>
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> apt + list </td>
+            <td> Listagem de pacotes disponíveis para instalação. </td>
+            <td> apt list </td>
+        </tr>
+        <tr>
+            <td> apt + list + nome do pacote </td>
+            <td> Procurando pacotes sobre certo programa. </td>
+            <td> apt list vlc </td>
+        </tr>
+        <tr>
+            <td> apt + install + nome do pacote </td>
+            <td> Instalando o programa no sistema. </td>
+            <td> apt install vlc </td>
+        </tr>
+        <tr>
+            <td> apt + install + vlc + -y </td>
+            <td> Instalando o programa sem perguntar. </td>
+            <td> apt install vlc -y </td>
+        </tr>
+        <tr>
+            <td> apt + remove + nome do pacote </td>
+            <td> Remove apenas o programa. </td>
+            <td> apt remove vlc </td>
+        </tr>
+        <tr>
+            <td> apt + update </td>
+            <td> Atualiza os pacotes do sistema. </td>
+            <td> apt update </td>
+        </tr>
+        <tr>
+            <td> apt + upgrade </td>
+            <td> Atualiza o sistema operacional. </td>
+            <td> apt upgrade </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
