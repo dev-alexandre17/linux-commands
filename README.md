@@ -462,7 +462,7 @@
     </table>
 </div>
 
-<h2> Gerenciamento de pacotes (Ubuntu / Debian) </h2>
+<h2> Gerenciamento de pacotes (UBUNTU / DEBIAN) </h2>
 
 <div>
     <table>
@@ -508,6 +508,8 @@
         </tr>
     </table>
 </div>
+
+<h2> Gerenciamento de pacotes (FEDORA / RED HAT / CenTOS) </h2>
 
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
