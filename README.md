@@ -511,5 +511,35 @@
 
 <h2> Gerenciamento de pacotes (FEDORA / RED HAT / CenTOS) </h2>
 
+<div>
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> dnf + list </td>
+            <td> Listagem de pacotes disponíveis para download. </td>
+            <td> dfn list </td>
+        </tr>
+        <tr>
+            <td> dnf + search + pacote </td>
+            <td> Procurar determinado pacote. </td>
+            <td> dnf search vlc </td>
+        </tr>
+        <tr>
+            <td> dnf + install + pacote </td>
+            <td> Instalação do pacote. </td>
+            <td> dnf install nano  </td>
+        </tr>
+        <tr>
+            <td> dnf + update </td>
+            <td> Atualização de pacotes. </td>
+            <td> dnf update </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
