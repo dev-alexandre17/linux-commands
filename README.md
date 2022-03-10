@@ -543,5 +543,8 @@
 
 <h2> Realizando instalações via SNAP (FEDORA) </h2>
 
+<div>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
