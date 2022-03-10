@@ -544,6 +544,8 @@
 <h2> Realizando instalações via SNAP (FEDORA) </h2>
 
 <div>
+    <table>
+    </table>
 </div>
 
 <p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
