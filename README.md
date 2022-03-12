@@ -545,6 +545,21 @@
 
 <div>
     <table>
+        <tr> 
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> dnf + install + snapd </td>
+            <td> Instalando suporte aos pacotes snap. </td>
+            <td> dnf install snapd </td>
+        </tr>
+        <tr>
+            <td> snap + install + gimp </td>
+            <td> Instalando gimp do pacote snap. </td>
+            <td> snap install gimp </td>
+        <tr>
     </table>
 </div>
 
