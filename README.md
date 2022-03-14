@@ -563,5 +563,37 @@
     </table>
 </div>
 
-<p> Em caso de dúvidas, faça uma issue neste repositório :) <p>
+<h2>  Renoemando / Movendo arquivos </h2>
+
+<div>
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> cp + arquivo local + arquivo clone </td>
+            <td> Criando uma cópia de um arquivo. </td>
+            <td> cp arquivo.txt arquivo2.txt </td>
+        </tr>
+        <tr>
+            <td> mv + arquivo local + novo nome do arquivo. </td>
+            <td> Renoemando o arquivo original para outro. </td>
+            <td> mv arquivo.txt teste.txt </td>
+        </tr>
+        <tr>
+            <td> mv + caminho atual + caminho destino. </td>
+            <td> Movendo arquivo do caminho atual para outro. </td>
+            <td> mv /home/dev-alexandre17/teste.txt /lib </td>
+        </tr>
+        <tr>
+            <td> mv + caminho com barra e * + caminho destino </td>
+            <td> Movendo tudo de um diretório para o caminho destino. </td>
+            <td> mv /home/dev-alexandre17/* /lib </td>
+        </tr>
+    </table>
+</div>
+
+<p> Em caso de dúvidas, faça uma issue neste repositório :) </p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
