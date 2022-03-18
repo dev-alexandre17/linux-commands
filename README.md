@@ -654,5 +654,22 @@
     </table>
 </div>
 
+<h2> Instalando outros ambientes gráficos </h2>
+
+<div>
+    <table>
+        <tr>
+            <td> apt + install + kde-standard ou kde-full </td>
+            <td> Versão KDE em distribuições ubuntu. </td>
+            <td> apt install kde-standard </td>
+        </tr>
+        <tr>
+            <td> dnf + group + install + "Deepin Desktop" </td>
+            <td> Versão Deepin em distribuição fedora. </td>
+            <td> dnf group install "Deepin Desktop" </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) </p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
