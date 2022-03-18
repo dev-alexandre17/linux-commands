@@ -622,7 +622,7 @@
     </table>
 </div>
 
-<h2> Excluindo arquivos e diretórios </td>
+<h2> Excluindo arquivos e diretórios </h2>
 
 <div>
     <table>
