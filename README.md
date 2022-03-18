@@ -598,6 +598,28 @@
 <h2> Copiando arquivos </h2>
 
 <div>
+    <table>
+        <tr>
+            <th> Comandos </th>
+            <th> Descrições </th>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> cp + /caminho-atual/arquivo + /caminho-destino/ </td>
+            <td> Copiando arquivo do caminho atual para outro. </td>
+            <td> cp /home/teste.txt /home/download </td>
+        </tr>
+        <tr>
+            <td> cp + /caminho-atual/* + /caminho-destino -vR </td>
+            <td> Copiando todos arquivos e pastas para o diretório destino. </td>
+            <td> cp /home/* home/download -vR </td>
+        </tr>
+        <tr>
+            <td> cp + /caminho-atual/* + /caminho-destino/ -vRu </td>
+            <td> Mesmo processo do comando acima, porém copiando com arquivos iguais usando a flag -u. </td>
+            <td> cp home/* home/download -vRu </td>
+        </tr>
+    </table>
 </div>
 
 <p> Em caso de dúvidas, faça uma issue neste repositório :) </p>
