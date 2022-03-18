@@ -622,5 +622,37 @@
     </table>
 </div>
 
+<h2> Excluindo arquivos e diretórios </td>
+
+<div>
+    <table>
+        <tr>
+            <th> Comandos </td>
+            <th> Descrições </td>
+            <th> Exemplos </th>
+        </tr>
+        <tr>
+            <td> rm + arquivo </td>
+            <td> Removendo arquivo do diretório atual. </td>
+            <td> rm textov1.txt </td>
+        </tr>
+        <tr>
+            <td> rm + a* + -f </td>
+            <td> Removendo todos os arquivos com a incial a forçando com a flag -f. </td>
+            <td> rm a* -f </td>
+        </tr>
+        <tr>
+            <td> rm + /diretório/* -R </td>
+            <td> Removendo tudo de determinado diretório e seus sub-diretórios. </td>
+            <td> rm /home/* -R </td>
+        </tr>
+        <tr>
+            <td> rm + /* + -R </td>
+            <td> Deletando todos os arquivos base da distribuição. </td>
+            <td> rm /* -R </td>
+        </tr>
+    </table>
+</div>
+
 <p> Em caso de dúvidas, faça uma issue neste repositório :) </p>
 <p> Gostou dos comandos? Deixe seu ⭐ para contribuir! </p>
